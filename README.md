@@ -56,10 +56,3 @@ The application will start on `http://localhost:8080`.
     curl -X GET "http://localhost:8080/api/user/fetch?username=testuser"
     ```
 
-## H2 Database
-
-To access the H2 database console, navigate to `http://localhost:8080/h2-console` in your web browser.
-
-- **JDBC URL**: `jdbc:h2:mem:testdb`
-- **User**: `sa`
-- **Password**: `password`
